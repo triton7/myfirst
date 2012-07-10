@@ -18,6 +18,7 @@
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
+    // some comment has been added.
 }
 
 -(IBAction) sendButtonTapped:(id)sender

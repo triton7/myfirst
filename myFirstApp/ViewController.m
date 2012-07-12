@@ -21,6 +21,11 @@
     // some comment has been added.
 }
 
+-(IBAction)textFieldEditEnded:(id)sender
+{
+    [sender resignFirstResponder];
+}
+
 -(IBAction) sendButtonTapped:(id)sender
 {
     NSString * mess = [NSString stringWithFormat:@"I'm %@ and feeling %@ about it.", [activities_ objectAtIndex:[emailPicker_ selectedRowInComponent:0]], [feelings_ objectAtIndex:[emailPicker_ selectedRowInComponent:1]]];

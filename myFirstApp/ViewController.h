@@ -26,4 +26,5 @@
 @property (nonatomic, retain) IBOutlet UITextField* textField;
 
  -(IBAction) sendButtonTapped:(id)sender;
+-(IBAction)textFieldEditEnded:(id)sender;
 @end
